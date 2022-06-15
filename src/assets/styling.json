@@ -1,0 +1,143 @@
+[
+    {   "id": "input1",
+        "title":"<Input />",
+        "inputStyle":{
+            "border":"1px solid #828282"
+        }
+    },
+    {   "id": "input2",
+        "title":"&:hover",
+        "titleStyle":{
+            "color":"#828282"
+        },
+        "inputStyle":{
+            "border":"1px solid #333333"
+        }
+    },
+    {   "id": "input3",
+        "title":"&:focus",
+        "titleStyle":{
+            "color":"#828282"
+        },
+        "labelStyle":{
+            "color":"#2962FF"
+        },
+        "inputStyle":{
+            "border":"1px solid #2962FF"
+        }
+    },
+    {   "id": "input4",
+        "title":"<Input error />",
+        "labelStyle":{
+            "color":"#D32F2F"
+        },
+        "inputStyle":{
+            "border":"1px solid #D32F2F"
+        }
+    },
+    {   "id": "input5",
+        "title":"&:hover",
+        "titleStyle":{
+            "color":"#828282"
+        },
+        "inputStyle":{
+            "border":"1px solid #333333"
+        }
+    },
+    {   "id": "input6",
+        "title":"&:focus",
+        "labelStyle":{
+            "color":"#D32F2F"
+        },
+        "inputStyle":{
+            "border":"1px solid #D32F2F"
+        }
+    },
+    {   "id": "input7",
+        "title":"<Input disabled />",
+        "inputStyle":{
+            "border":"1px solid #E0E0E0",
+            "background": "#F2F2F2"
+        },
+        "disabled":true
+    },
+    {   "id": "input8",
+        "title":"<Input helperText=”Some interesting text” />",
+        "inputStyle":{
+            "border":"1px solid #E0E0E0"
+        },
+        "helper":"Some interesting text",
+        "helperStyle":{
+            "color":"#828282"
+        }
+    },
+    {   "id": "input9",
+        "title":"<Input helperText=”Some interesting text” error />",
+        "labelStyle":{
+            "color":"#D32F2F"
+        },
+        "inputStyle":{
+            "border":"1px solid #D32F2F"
+        },
+        "helper":"Some interesting text",
+        "helperStyle":{
+            "color":"#D32F2F"
+        }
+    },
+    {   "id": "input10",
+        "title":"<Input startIcon />",
+        "inputStyle":{
+            "border":"1px solid #828282",
+            "text-align": "center"
+        },
+        "iconLeft":true
+    },
+    {   "id": "input11",
+        "title":"<Input startIcon />",
+        "inputStyle":{
+            "border":"1px solid #828282",
+            "text-align": "left"
+        },
+        "iconRight":true
+    },
+    {   "id": "input12",
+        "title":"<Input value=”Text” />",
+        "inputStyle":{
+            "border":"1px solid #828282"
+        },
+        "value":"Text"
+    },
+    {   "id": "input13",
+        "title":"<Input size=”sm” />",
+        "inputStyle":{
+            "border":"1px solid #828282",
+            "padding": "0.5rem 0.75rem"
+        }
+    },
+    {   "id": "input14",
+        "title":"<Input size=”md” />",
+        "inputStyle":{
+            "border":"1px solid #828282",
+            "padding": "1rem 1.25rem"
+        }
+    },
+    {   "id": "input15",
+        "title":"<Input fullWidth />",
+        "inputStyle":{
+            "border":"1px solid #828282",
+            "width":"100vh"
+        }
+    },
+    {   "id": "input16",
+        "title":"<Input multiline row=”4” />",
+        "multiline":true,
+        "rows":4,
+        "areaStyle":{
+            "font-size": "1.1rem;",
+            "border":"1px solid #828282",
+            "resize": "none",
+            "border-radius":"8px"
+        }
+    }
+]
+
