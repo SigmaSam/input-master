@@ -9,9 +9,9 @@ This single page app was build with the idea of making a input component that co
 
 ## Live Demo
 
-![Tracker]()
+![Tracker](../input-master/src/assets/image.png)
 
-[Live Version]()
+[Live Version](https://inputmasterreact.netlify.app/)
 
 ## Getting Started
 
