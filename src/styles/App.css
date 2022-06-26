@@ -16,17 +16,15 @@
   display:grid;
   justify-content: center;
   grid-template-columns: 1fr 1fr 1fr;
-  width:80vh;
 }
 
 .input-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 1rem;
-  word-wrap:break-word;
-  max-width: 33%;
+  font-size: 0.7rem;
 }
+
 
 .input-box > input {
   font-size: 1.1rem;
@@ -102,10 +100,27 @@
   grid-row: 7;
 }
 #input15 {
-  grid-column: 1/3;
+  grid-column: span 3;
   grid-row: 8;
 }
 #input16 {
-  grid-column: 1;
+  grid-column:  1/2;
   grid-row: 9;
+}
+
+@media (max-width: 800px) {
+  .inputs-container {
+   display: flex;
+   flex-direction: column;
+  
+   width: 80%;
+   padding-left: 1rem;
+  }
+  #input15 {
+    width:90%
+  }
+  #input16 {
+    width:50%
+  }
+  
 }

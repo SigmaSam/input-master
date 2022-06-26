@@ -24,7 +24,8 @@ function Inputs({props,value,handleChange}) {
             placeholder='Placeholder'
             style={props.inputStyle} 
             disabled={props.disabled}
-            value={props.value ? props.value : value}
+            value={props.disabled ? null :
+                  props.value ? props.value : value}
             onChange={handleChange} 
           />}   
         {props.iconRight 
