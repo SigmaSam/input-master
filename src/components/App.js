@@ -24,7 +24,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="inputs-tittle">Inputs</h1>
+      <div className="inputs-tittle">
+        <h1>Inputs</h1>
+        </div>
       <div className="inputs-container">
         {inputs}
       </div>
