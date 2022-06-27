@@ -3,7 +3,7 @@ import React from 'react'
 function Inputs({props,value,handleChange}) {
   return (
     <div className="input-box" id={props.id}>
-        <p style={props.titleStyle}>{props.title}</p>
+        <p className="input-name" style={props.titleStyle}>{props.title}</p>
         <label style={props.labelStyle}>Label</label>
         {props.iconLeft 
         ? <span 

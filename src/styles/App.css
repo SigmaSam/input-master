@@ -25,6 +25,11 @@
   font-size: 0.7rem;
 }
 
+.input-name {
+  font-family: Poppins;
+  font-size: 1rem;
+}
+
 
 .input-box > input {
   font-size: 1.1rem;
