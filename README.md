@@ -1,5 +1,5 @@
 # Inputs Component.
-This single page app was build with the idea of making a input component that could be recicled and managed from an API data (using a mock api in this version). 
+This single page app was build with the idea of making a input component that could be recycled and managed from an API data (using a mock api in this version). 
 
 ## Built With
 - HTML
